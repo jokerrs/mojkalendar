@@ -1,0 +1,20 @@
+{
+  "name": "mojkalendar",
+  "description": "descasdripdstion",
+  "minimum-stability": "beta",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "njeremic",
+      "email": "nemanja@joker.rs"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "app/"
+    }
+  }
+}
